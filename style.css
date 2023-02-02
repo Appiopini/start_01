@@ -1,0 +1,64 @@
+header {
+     background: #BBBBBB;
+     padding: 20px 0;
+}
+
+.intro-text {
+     position: relative;
+     display: block;
+     margin: 15px 0 15px 100px;
+     /* display: flex;
+     justify-content: space-between;
+     flex-direction: column; */
+}
+
+#name {
+     font-family: math;
+     font-size: 45px;
+     margin: 0;
+     padding-bottom: 10px;
+}
+
+#work {
+     font-family: monospace;
+     font-size: 24px;
+     margin: 0;
+     padding-bottom: 10px;
+}
+
+#quote {
+     width: 450px;
+     font-family: 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     margin: 0;
+     padding: 5px 0 5px 0;
+}
+
+.resto {
+     margin-left: 100px;
+}
+
+nav {
+     position: absolute;
+     top: 110px;
+     right: 0;
+}
+
+nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+}
+
+nav a {
+     text-transform: uppercase;
+     color: #000000;
+     font-weight: bold;
+     font-size: 22px;
+     text-decoration: none;
+}
+
+nav a:hover {
+     color: #C78C19;
+     text-decoration: underline;
+}
+
