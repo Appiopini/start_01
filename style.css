@@ -3,13 +3,17 @@ header {
      padding: 20px 0;
 }
 
+body {
+     background-color: #333333;
+}
+
 .intro-text {
      position: relative;
      display: block;
-     margin: 15px 0 15px 100px;
-     /* display: flex;
+     margin: 15px 15px 15px 15px;
+     display: flex;
      justify-content: space-between;
-     flex-direction: column; */
+     flex-direction: column;
 }
 
 #name {
@@ -27,11 +31,12 @@ header {
      letter-spacing: 2px;
      font-size: 30px;
      margin: 0;
+     padding-top: 10px;
      padding-bottom: 10px;
 }
 
 #quote {
-     width: 450px;
+     /* width: 450px; */
      font-family: 'Titillium Web', sans-serif;
      font-style: italic;
      letter-spacing: 2px;
@@ -42,7 +47,7 @@ header {
 }
 
 .resto {
-     margin-left: 100px;
+     margin-left: 30px;
      font-family: 'Titillium Web', sans-serif;
 }
 
